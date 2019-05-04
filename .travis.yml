@@ -1,6 +1,6 @@
 language: python
 python:
   - 3.6
- install:
+install:
   - pip install unittest2
- script: python test.py
+script: python test.py
