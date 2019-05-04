@@ -28,3 +28,4 @@ class Bank:
 	def deposit(self, client, value):
 		client.deposit_money(value)
 		self.stored_money += value
+		
